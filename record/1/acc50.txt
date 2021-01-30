@@ -1,0 +1,200 @@
+Test: EPOCH=  1, Accuracy=30.470%
+Test: EPOCH=  2, Accuracy=36.980%
+Test: EPOCH=  3, Accuracy=41.200%
+Test: EPOCH=  4, Accuracy=42.870%
+Test: EPOCH=  5, Accuracy=47.170%
+Test: EPOCH=  6, Accuracy=39.450%
+Test: EPOCH=  7, Accuracy=45.700%
+Test: EPOCH=  8, Accuracy=48.150%
+Test: EPOCH=  9, Accuracy=51.760%
+Test: EPOCH= 10, Accuracy=57.430%
+Test: EPOCH= 11, Accuracy=60.110%
+Test: EPOCH= 12, Accuracy=61.540%
+Test: EPOCH= 13, Accuracy=64.870%
+Test: EPOCH= 14, Accuracy=65.560%
+Test: EPOCH= 15, Accuracy=67.050%
+Test: EPOCH= 16, Accuracy=68.120%
+Test: EPOCH= 17, Accuracy=69.660%
+Test: EPOCH= 18, Accuracy=71.790%
+Test: EPOCH= 19, Accuracy=73.260%
+Test: EPOCH= 20, Accuracy=74.660%
+Test: EPOCH= 21, Accuracy=76.750%
+Test: EPOCH= 22, Accuracy=77.070%
+Test: EPOCH= 23, Accuracy=78.230%
+Test: EPOCH= 24, Accuracy=77.350%
+Test: EPOCH= 25, Accuracy=79.010%
+Test: EPOCH= 26, Accuracy=80.370%
+Test: EPOCH= 27, Accuracy=78.670%
+Test: EPOCH= 28, Accuracy=81.670%
+Test: EPOCH= 29, Accuracy=81.240%
+Test: EPOCH= 30, Accuracy=81.870%
+Test: EPOCH= 31, Accuracy=82.880%
+Test: EPOCH= 32, Accuracy=82.490%
+Test: EPOCH= 33, Accuracy=83.560%
+Test: EPOCH= 34, Accuracy=82.160%
+Test: EPOCH= 35, Accuracy=83.860%
+Test: EPOCH= 36, Accuracy=83.620%
+Test: EPOCH= 37, Accuracy=84.640%
+Test: EPOCH= 38, Accuracy=84.430%
+Test: EPOCH= 39, Accuracy=84.980%
+Test: EPOCH= 40, Accuracy=84.380%
+Test: EPOCH= 41, Accuracy=85.220%
+Test: EPOCH= 42, Accuracy=84.940%
+Test: EPOCH= 43, Accuracy=84.100%
+Test: EPOCH= 44, Accuracy=84.800%
+Test: EPOCH= 45, Accuracy=86.090%
+Test: EPOCH= 46, Accuracy=85.220%
+Test: EPOCH= 47, Accuracy=85.620%
+Test: EPOCH= 48, Accuracy=85.880%
+Test: EPOCH= 49, Accuracy=86.020%
+Test: EPOCH= 50, Accuracy=86.180%
+Test: EPOCH= 51, Accuracy=85.920%
+Test: EPOCH= 52, Accuracy=86.470%
+Test: EPOCH= 53, Accuracy=86.060%
+Test: EPOCH= 54, Accuracy=85.230%
+Test: EPOCH= 55, Accuracy=87.260%
+Test: EPOCH= 56, Accuracy=86.770%
+Test: EPOCH= 57, Accuracy=86.630%
+Test: EPOCH= 58, Accuracy=86.850%
+Test: EPOCH= 59, Accuracy=87.280%
+Test: EPOCH= 60, Accuracy=87.480%
+Test: EPOCH= 61, Accuracy=87.010%
+Test: EPOCH= 62, Accuracy=87.600%
+Test: EPOCH= 63, Accuracy=87.600%
+Test: EPOCH= 64, Accuracy=87.190%
+Test: EPOCH= 65, Accuracy=87.280%
+Test: EPOCH= 66, Accuracy=86.810%
+Test: EPOCH= 67, Accuracy=86.900%
+Test: EPOCH= 68, Accuracy=87.000%
+Test: EPOCH= 69, Accuracy=86.840%
+Test: EPOCH= 70, Accuracy=87.030%
+Test: EPOCH= 71, Accuracy=87.780%
+Test: EPOCH= 72, Accuracy=87.370%
+Test: EPOCH= 73, Accuracy=87.900%
+Test: EPOCH= 74, Accuracy=87.470%
+Test: EPOCH= 75, Accuracy=87.690%
+Test: EPOCH= 76, Accuracy=87.520%
+Test: EPOCH= 77, Accuracy=87.320%
+Test: EPOCH= 78, Accuracy=88.120%
+Test: EPOCH= 79, Accuracy=88.030%
+Test: EPOCH= 80, Accuracy=87.940%
+Test: EPOCH= 81, Accuracy=87.910%
+Test: EPOCH= 82, Accuracy=88.490%
+Test: EPOCH= 83, Accuracy=88.450%
+Test: EPOCH= 84, Accuracy=88.620%
+Test: EPOCH= 85, Accuracy=88.070%
+Test: EPOCH= 86, Accuracy=88.410%
+Test: EPOCH= 87, Accuracy=87.820%
+Test: EPOCH= 88, Accuracy=88.050%
+Test: EPOCH= 89, Accuracy=88.550%
+Test: EPOCH= 90, Accuracy=88.780%
+Test: EPOCH= 91, Accuracy=87.930%
+Test: EPOCH= 92, Accuracy=88.510%
+Test: EPOCH= 93, Accuracy=88.510%
+Test: EPOCH= 94, Accuracy=88.420%
+Test: EPOCH= 95, Accuracy=89.280%
+Test: EPOCH= 96, Accuracy=88.720%
+Test: EPOCH= 97, Accuracy=88.840%
+Test: EPOCH= 98, Accuracy=88.700%
+Test: EPOCH= 99, Accuracy=88.250%
+Test: EPOCH=100, Accuracy=88.640%
+Test: EPOCH=101, Accuracy=89.740%
+Test: EPOCH=102, Accuracy=89.730%
+Test: EPOCH=103, Accuracy=89.750%
+Test: EPOCH=104, Accuracy=89.900%
+Test: EPOCH=105, Accuracy=89.950%
+Test: EPOCH=106, Accuracy=90.110%
+Test: EPOCH=107, Accuracy=90.170%
+Test: EPOCH=108, Accuracy=90.190%
+Test: EPOCH=109, Accuracy=90.060%
+Test: EPOCH=110, Accuracy=90.070%
+Test: EPOCH=111, Accuracy=90.250%
+Test: EPOCH=112, Accuracy=90.280%
+Test: EPOCH=113, Accuracy=90.250%
+Test: EPOCH=114, Accuracy=90.370%
+Test: EPOCH=115, Accuracy=90.490%
+Test: EPOCH=116, Accuracy=90.410%
+Test: EPOCH=117, Accuracy=90.390%
+Test: EPOCH=118, Accuracy=90.410%
+Test: EPOCH=119, Accuracy=90.340%
+Test: EPOCH=120, Accuracy=90.320%
+Test: EPOCH=121, Accuracy=90.470%
+Test: EPOCH=122, Accuracy=90.470%
+Test: EPOCH=123, Accuracy=90.400%
+Test: EPOCH=124, Accuracy=90.300%
+Test: EPOCH=125, Accuracy=90.350%
+Test: EPOCH=126, Accuracy=90.370%
+Test: EPOCH=127, Accuracy=90.480%
+Test: EPOCH=128, Accuracy=90.520%
+Test: EPOCH=129, Accuracy=90.320%
+Test: EPOCH=130, Accuracy=90.500%
+Test: EPOCH=131, Accuracy=90.400%
+Test: EPOCH=132, Accuracy=90.470%
+Test: EPOCH=133, Accuracy=90.480%
+Test: EPOCH=134, Accuracy=90.390%
+Test: EPOCH=135, Accuracy=90.550%
+Test: EPOCH=136, Accuracy=90.420%
+Test: EPOCH=137, Accuracy=90.340%
+Test: EPOCH=138, Accuracy=90.390%
+Test: EPOCH=139, Accuracy=90.390%
+Test: EPOCH=140, Accuracy=90.440%
+Test: EPOCH=141, Accuracy=90.400%
+Test: EPOCH=142, Accuracy=90.430%
+Test: EPOCH=143, Accuracy=90.340%
+Test: EPOCH=144, Accuracy=90.530%
+Test: EPOCH=145, Accuracy=90.580%
+Test: EPOCH=146, Accuracy=90.450%
+Test: EPOCH=147, Accuracy=90.600%
+Test: EPOCH=148, Accuracy=90.450%
+Test: EPOCH=149, Accuracy=90.410%
+Test: EPOCH=150, Accuracy=90.550%
+Test: EPOCH=151, Accuracy=90.500%
+Test: EPOCH=152, Accuracy=90.620%
+Test: EPOCH=153, Accuracy=90.550%
+Test: EPOCH=154, Accuracy=90.490%
+Test: EPOCH=155, Accuracy=90.620%
+Test: EPOCH=156, Accuracy=90.550%
+Test: EPOCH=157, Accuracy=90.630%
+Test: EPOCH=158, Accuracy=90.650%
+Test: EPOCH=159, Accuracy=90.520%
+Test: EPOCH=160, Accuracy=90.530%
+Test: EPOCH=161, Accuracy=90.530%
+Test: EPOCH=162, Accuracy=90.580%
+Test: EPOCH=163, Accuracy=90.640%
+Test: EPOCH=164, Accuracy=90.630%
+Test: EPOCH=165, Accuracy=90.600%
+Test: EPOCH=166, Accuracy=90.630%
+Test: EPOCH=167, Accuracy=90.470%
+Test: EPOCH=168, Accuracy=90.610%
+Test: EPOCH=169, Accuracy=90.570%
+Test: EPOCH=170, Accuracy=90.630%
+Test: EPOCH=171, Accuracy=90.660%
+Test: EPOCH=172, Accuracy=90.590%
+Test: EPOCH=173, Accuracy=90.630%
+Test: EPOCH=174, Accuracy=90.470%
+Test: EPOCH=175, Accuracy=90.550%
+Test: EPOCH=176, Accuracy=90.550%
+Test: EPOCH=177, Accuracy=90.390%
+Test: EPOCH=178, Accuracy=90.500%
+Test: EPOCH=179, Accuracy=90.610%
+Test: EPOCH=180, Accuracy=90.510%
+Test: EPOCH=181, Accuracy=90.520%
+Test: EPOCH=182, Accuracy=90.530%
+Test: EPOCH=183, Accuracy=90.590%
+Test: EPOCH=184, Accuracy=90.430%
+Test: EPOCH=185, Accuracy=90.510%
+Test: EPOCH=186, Accuracy=90.560%
+Test: EPOCH=187, Accuracy=90.570%
+Test: EPOCH=188, Accuracy=90.590%
+Test: EPOCH=189, Accuracy=90.550%
+Test: EPOCH=190, Accuracy=90.620%
+Test: EPOCH=191, Accuracy=90.520%
+Test: EPOCH=192, Accuracy=90.510%
+Test: EPOCH=193, Accuracy=90.530%
+Test: EPOCH=194, Accuracy=90.400%
+Test: EPOCH=195, Accuracy=90.550%
+Test: EPOCH=196, Accuracy=90.650%
+Test: EPOCH=197, Accuracy=90.570%
+Test: EPOCH=198, Accuracy=90.500%
+Test: EPOCH=199, Accuracy=90.540%
+Test: EPOCH=200, Accuracy=90.450%
