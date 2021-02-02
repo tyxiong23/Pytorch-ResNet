@@ -1,5 +1,5 @@
 import torch
-from os import path, listdir
+from os import path, listdir, makedirs
 import argparse
 import ResNet
 import torch.nn
@@ -47,19 +47,30 @@ def predict(img):
 
 if __name__ == "__main__":
     test_dir = path.join(path.dirname(__file__), 'test')
+    result_dir = path.join(test_dir, "result")
+    if not path.exists(result_dir):
+        makedirs(result_dir)
     test_imgs = listdir(test_dir)
+    print(test_imgs)
     for img_name in test_imgs:
-        if img_name.rfind('result') != -1:
-            continue
+        if not img_name.endswith(".jpg"):
+            test_imgs.remove(img_name)
+    print(test_imgs)
+    for img_name in test_imgs:
         img_path = path.join(test_dir, img_name)
         img = Image.open(img_path)
         result = "\n".join([img_name, predict(img)])
         plt_img = plt.imread(img_path)
-        plt.subplot(floor(sqrt(len(test_imgs))), ceil(sqrt(len(test_imgs))), test_imgs.index(img_name) + 1)
+        size = len(test_imgs)
+        rows = floor(sqrt(size))
+        cols = ceil(size/rows)
+        plt.subplot(rows, cols, test_imgs.index(img_name) + 1)
         plt.imshow(plt_img)
         plt.title(result)
-        plt.tight_layout()
-
-    plt.savefig(path.join(test_dir, 'result{}.jpg'.format(args.exp_id)))    
+        print(test_imgs.index(img_name) + 1)
+    
+    plt.tight_layout()
+    plt.savefig(path.join(result_dir, 'result{}.jpg'.format(args.exp_id)))    
     plt.show()
+    print(rows, cols, size)
     
