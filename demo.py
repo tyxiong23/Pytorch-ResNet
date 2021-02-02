@@ -6,6 +6,7 @@ import torch.nn
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 from PIL import Image
+from math import sqrt, floor, ceil
 
 parser = argparse.ArgumentParser(description="A demo for the trained model")
 parser.add_argument("--exp-id", default='1', help="id of the experiment")
@@ -24,7 +25,7 @@ for tmp in paths:
 
 print(model_path, model_name)
 model = ResNet.__dict__[model_name]()
-model.load_state_dict(torch.load(model_path))
+model.load_state_dict(torch.load(model_path, map_location = 'cuda:0'))
 
 
 a = torch.rand(3,4,4,5)
@@ -48,11 +49,17 @@ if __name__ == "__main__":
     test_dir = path.join(path.dirname(__file__), 'test')
     test_imgs = listdir(test_dir)
     for img_name in test_imgs:
+        if img_name.rfind('result') != -1:
+            continue
         img_path = path.join(test_dir, img_name)
         img = Image.open(img_path)
-        
+        result = "\n".join([img_name, predict(img)])
         plt_img = plt.imread(img_path)
+        plt.subplot(floor(sqrt(len(test_imgs))), ceil(sqrt(len(test_imgs))), test_imgs.index(img_name) + 1)
         plt.imshow(plt_img)
-        plt.show()
-        result = predict(img)
-        print(img_name, result)
+        plt.title(result)
+        plt.tight_layout()
+
+    plt.savefig(path.join(test_dir, 'result{}.jpg'.format(args.exp_id)))    
+    plt.show()
+    
