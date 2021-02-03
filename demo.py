@@ -67,7 +67,6 @@ if __name__ == "__main__":
         plt.subplot(rows, cols, test_imgs.index(img_name) + 1)
         plt.imshow(plt_img)
         plt.title(result)
-        print(test_imgs.index(img_name) + 1)
     
     plt.tight_layout()
     plt.savefig(path.join(result_dir, 'result{}.jpg'.format(args.exp_id)))    
