@@ -9,6 +9,6 @@
 我也将自己所训练的ResNet18, ResNet50的最终模型和训练记录上传上来，可供参考。
 
 测试结果如下：
-![](test/result/result1.png)
+![test](test/result/result1.jpg)
 
 由于是初次尝试，有很多问题还没有解决，恳请大家指教！
